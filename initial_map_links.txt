@@ -1,0 +1,26 @@
+//Lower part of Kazan
+//const pageLink = 'https://yandex.com/maps/43/kazan/streetview/?ll=49.173463%2C55.765316&z=13.28';
+//Upper part of Kazan (without Aviastroy);
+//const pageLink = 'https://yandex.com/maps/43/kazan/streetview/?ll=49.107491%2C55.825802&z=14';
+//aviastroy
+//const pageLink = 'https://yandex.com/maps/43/kazan/streetview/?ll=49.034683%2C55.865530&z=13.4';
+//whole Kazan
+//const pageLink = 'https://yandex.com/maps/43/kazan/streetview/?ll=49.158082%2C55.780327&z=13';
+//Dubna left side
+//const pageLink = 'https://yandex.com/maps/215/dubna/streetview/?ll=37.149454%2C56.754186&z=15';
+//Dubna BV
+//const pageLink = 'https://yandex.com/maps/215/dubna/streetview/?ll=37.155400%2C56.731711&z=15';
+//Dubna Institute
+//const pageLink = 'https://yandex.com/maps/215/dubna/streetview/?ll=37.192478%2C56.742206&z=15';
+//Nizhnekamsk Upper
+//const pageLink = 'https://yandex.com/maps/11127/nizhnekamsk/streetview/?ll=51.831537%2C55.644394&z=14';
+//Whole Nizhnekamsk
+//const pageLink = 'https://yandex.com/maps/11127/nizhnekamsk/streetview/?ll=51.820581%2C55.627782&z=13.04';
+//Almetyevsk
+//pageLink = 'https://yandex.com/maps/11121/almetyevsk/streetview/?ll=52.298875%2C54.902329&z=14'
+//Bugulma
+//pageLink = 'https://yandex.com/maps/11122/bugulma/streetview/?ll=52.798576%2C54.542281&z=14';
+//Belgrade
+//pageLink = 'https://yandex.com/maps/10522/belgrade/streetview/?ll=20.469810%2C44.801322&z=13'
+//Chelny
+//pageLink = 'https://yandex.com/maps/geo/naberezhnyye_chelny/53105093/?l=stv%2Csta&ll=52.355107%2C55.727050&z=13'

@@ -2,8 +2,11 @@
 
 # File containing URLs
 input_folder="Extracted_locs"
-city="Belgrade"
+city="testCity"
 output_folder="Created_maps"
+if [ ! -d "$output_folder" ]; then
+   mkdir $output_folder
+fi
 
 # Output file for coordinates
 output_grep=${output_folder}/"Yandex_$city.csv"
