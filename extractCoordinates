@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# File containing URLs
+input_folder="Extracted_locs"
+city="Belgrade"
+output_folder="Created_maps"
+
+# Output file for coordinates
+output_grep=${output_folder}/"Yandex_$city.csv"
+
+# Extract coordinates using grep and replace %2C with a comma using sed
+grep -v "air" "${input_folder}/${city}" | grep -oP 'panorama%5Bpoint%5D=\K[\d.]+%2C[\d.]+' | sed -E 's/([0-9.]+)%2C([0-9.]+)/\2,\1/' > "$output_grep"
+
+echo "Coordinates extracted and formatted saved to $output_grep"
